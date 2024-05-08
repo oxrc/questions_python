@@ -1,7 +1,6 @@
 # What will the code below output? Why?
 
 class A:
-
     b = None
 
     def __init__(self):
@@ -19,12 +18,17 @@ inst_B = A()
 
 inst_A.set_c(5)
 inst_A.set_b(3)
+inst_A.f = 10
 
 inst_B.set_c(10)
 inst_B.set_b(8)
+inst_B.f = 15
+
 
 print(inst_A.c)
 print(inst_A.b)
+print(inst_A.f)
 
 print(inst_B.c)
 print(inst_B.b)
+print(inst_B.f)
